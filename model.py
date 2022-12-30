@@ -1,6 +1,6 @@
 def search_and_print_contact():
     lines = []
-    with open('Homeworks\Homework007\phonebook.txt', 'r') as file:
+    with open('Homeworks\Homework007_1\phonebook.txt', 'r') as file:
         lines = file.read().splitlines()
     
     print('Введите, что искать:')
