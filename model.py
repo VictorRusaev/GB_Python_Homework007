@@ -24,4 +24,6 @@ def search_and_print_contact():
                     print(lines[i])
                     print(lines[i + 1])
                     print(lines[i + 2])
+    if box == 0:
+        print('Такого контакта нет')
         
